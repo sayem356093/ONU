@@ -1,0 +1,156 @@
+.mt-100{
+	margin-top: 100px;
+}
+.pb-40{
+	padding-bottom: 40px;
+}
+.border-none{
+	border: none;
+}
+.bg-gray{
+	background-color: #E1E1E1;
+}
+.btn-onu{
+	background-color: #87d37c;
+}
+.banner-1{
+	background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.navbar-light .navbar-nav .nav-link.active{
+	color: #87d37c;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 17px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #87d37c;
+}
+.carousel-indicators [data-bs-target]{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #ffffff;
+}
+span{
+	color: #87d37c;
+}
+.fa-solid:hover, .fa-brands:hover{
+	color: #87d37c;
+}
+.img{
+	position: relative;
+}
+.blurr{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+	top: 0px;
+	left: 0px;
+	display: none;
+	text-align: center;
+	transition: 0.5s;
+	color: #ffffff;
+	padding-top: 40%;
+	font-weight: bolder;
+
+}
+.blurr .fa-brands{
+	font-size: 30px;
+	color: #ffffff;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+.services .img:hover .blurr{
+	display: inline-block;
+}
+.blurr .fa-brands:hover, .blurr p:hover{
+	color: #87d37c;
+	border-color: #87d37c;
+	cursor: pointer;
+}
+.nav-pills .nav-button.active{
+	background-color: #87d37c;
+}
+.nav-pills .nav-button{
+	background-color: black;
+	color: #ffffff;
+	border: none;
+	border-radius: 0px;
+	margin: 5px 10px;
+}
+.nav-pills .nav-button:focus{
+	background-color: #87d37c;
+	outline: none;
+}
+.portfolio .img:hover .blurr{
+	display: inline-block;
+}
+.btn-price{
+	background-color: white;
+	color: black;
+}
+
+.circle{
+	padding-top: 10%;
+	width: 140px;
+	height: 140px;
+	border: 3px solid white;
+	border-radius: 50%;
+	margin: 10px auto;
+}
+.card{
+	margin-top: 10px;
+}
+.card-body{
+	padding: 20px 40px;
+	background-color: #212529;
+	color: #ffffff;
+}
+.card-body.active{
+	background-color: #87d37c;
+	color: white;
+}
+.card-body p{
+	border-bottom: 2px solid #ffffff;
+}
+.card-body:hover{
+	background-color: #87d37c;
+	color: white;
+}
+.banner-2{
+	background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/p1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.form-control-sm{
+	border: none;
+}
+.form-control-sm:focus{
+	outline: 3px solid #87d37c;
+}
+footer span{
+	color: #ffffff;
+	display: inline-block;
+}
+.brands{
+	margin-left: 65%;
+}
+@media (min-width: 0px) and (max-width: 767px){
+	body{
+		font-size: 15px;
+		text-align: center;
+	}
+	.card{
+		width: 75%;
+		margin: 10px auto;
+	}
+}
